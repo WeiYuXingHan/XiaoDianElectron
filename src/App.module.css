@@ -1,0 +1,55 @@
+ .wrapper {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.welcome {
+  width: 800px;
+  color: #494c58;
+  font-family: Microsoft YaHei UI;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  margin: 5px;
+}
+
+.frame {
+  position: relative;
+  width: 500px;
+  height: 110px;
+  border-radius: 88px;
+  background: #ffffff;
+}
+
+.title {
+  width: 700px;
+  font-family: Microsoft YaHei UI;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  background: linear-gradient(91deg, #4d49eb 38.72%, #9867ff 56.26%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.start-button {
+  position: relative;
+  flex: 1 1 auto;
+  transition: all 0.5s ease-in-out;
+  margin: 15px;
+}
+
+.introduce {
+  width: 1200px;
+  color: #494c58;
+  font-family: Microsoft YaHei UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
