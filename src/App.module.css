@@ -5,6 +5,49 @@
   flex-shrink: 0;
 }
 
+.navbar {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-left {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title-right {
+  background: linear-gradient(180deg, #d2d1fa 0%, #9867ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Microsoft YaHei UI;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.icons,
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.links {
+  color: #494c58;
+  font-size: 20px;
+  font-weight: 700;
+  list-style-type: none;
+  font-family: Microsoft YaHei UI;
+}
+
+.icons > svg {
+  width: 1.5rem;
+}
+
+
 .welcome {
   width: 800px;
   color: #494c58;

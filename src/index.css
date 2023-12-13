@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100svh;
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
