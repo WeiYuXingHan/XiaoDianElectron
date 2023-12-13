@@ -9,7 +9,7 @@ const Carousel = ({ images }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       nextSlide();
-    }, autoPlayInterval);
+    }, autoPlayInterval); 
 
     return () => clearInterval(timer);
   }, [currentSlide]);
