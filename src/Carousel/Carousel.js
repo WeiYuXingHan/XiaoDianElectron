@@ -5,7 +5,7 @@ const Carousel = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const autoPlayInterval = 3000;
-
+  
   useEffect(() => {
     const timer = setInterval(() => {
       nextSlide();

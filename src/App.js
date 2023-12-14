@@ -2,7 +2,10 @@ import style from './App.module.css';
 import { Button } from 'antd'
 import { Route, Router, Link } from 'react-router-dom'
 import Home from './views/Home/Home'
-import Carousel from './Carousel/index';
+import About from './views/About/About'
+import Study from './views/Study/Study'
+import Ours from './views/Ours/Ours'
+import Carousel from './Carousel/Carousel';
 function App() {
   const images = [
     'https://electron-2023-1322159997.cos.ap-nanjing.myqcloud.com/1702457087635.jpeg',
@@ -18,7 +21,7 @@ function App() {
         </Link>
         <ul class={style.links}>
           <li>站外链接</li>
-          <li>关于本站</li>
+          <Link to='/about'><li>关于本站</li></Link>
         </ul>
         <ul class={style.icons}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 38" fill="none">
@@ -48,3 +51,10 @@ function App() {
 }
 
 export default App;
+
+{/*       <Router>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
+        <Route path="/study" exact component={Study} />
+        <Route path="/ours" exact component={Ours} />
+      </Router> */}
